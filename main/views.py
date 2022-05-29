@@ -62,7 +62,6 @@ class WalrusAreaView(generics.GenericAPIView):
         return img
 
     def get(self, request, image_id, x, y, format=None):
-        global i
         x = float(x)
         y = float(y)
 
